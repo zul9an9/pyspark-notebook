@@ -1,0 +1,8 @@
+Tecnologias utilizadas.
+
+Pyspark, python, docker, docker-compose Jupyter-Notebook e Spark SQL.
+Docker usando network e volumes para a persistencia de dados.
+Para escalar o pyspark com altos volumes de dados altere as configurações 
+como: "spark.sql.shuffle.partitions","spark.driver.memory", "spark.serializer" e outros.
+ 
+
