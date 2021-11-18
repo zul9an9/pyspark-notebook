@@ -1,8 +1,11 @@
 Tecnologias utilizadas.
 
-Pyspark, python, docker, docker-compose Jupyter-Notebook e Spark SQL.
-Docker usando network e volumes para a persistencia de dados.
-Para escalar o pyspark com altos volumes de dados altere as configurações 
-como: "spark.sql.shuffle.partitions","spark.driver.memory", "spark.serializer" e outros.
- 
+Código no github : https://github.com/zul9an9/pyspark-notebook
+Seguir arquivo scriptExecucao.txt para entendimento do processo - token de segurança para acesso da aplicação.
 
+Pyspark, python, docker, docker-compose, Jupyter-Notebook e Spark SQL.
+Docker usando network e volume deixei opcional para a não fazer a persistencia de dados.
+Para escalar o pyspark com altos volumes de dados altere as configurações 
+como: "spark.sql.shuffle.partitions","spark.driver.memory" e outros.
+ 
+Pode-se ainda colocar o container em uma nuvem e/ou colocar um volume para persistencia de dados em nuvem ou local. Ver docker-compose-vol.yaml  
